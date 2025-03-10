@@ -1,0 +1,20 @@
+{
+  "name": "website-portofolio",
+  "version": "1.0.0",
+  "description": "ini website portofolio saya",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "tailwindcss -i ./src/tailwind.css -o ./dist/style.css --watch",
+    "build": "tailwindcss -i ./style.css -o ./public/build.css --minify"
+  },
+  "keywords": [
+    "portofolio",
+    "website"
+  ],
+  "author": "dharmasitumorang",
+  "license": "ISC",
+  "devDependencies": {
+    "tailwindcss": "^3.4.17"
+  }
+}
