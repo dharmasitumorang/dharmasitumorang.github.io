@@ -2,7 +2,4 @@
 
 User-agent: *
 Allow: /
-Disallow: /src
-Disallow: /dist
-
-Sitemap: https://dharmasitumorang.github.io/sitemap.xml
+Sitemap: https://dharmasitumorang.netlify.app/sitemap.xml
